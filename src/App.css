@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 .App {
   width: 100%;
@@ -60,5 +61,66 @@
   width: 291px;
   height: 65px;
   flex-shrink: 0;
-  border:none;
+  border: none;
+}
+.div2 {
+  padding: 30px;
+}
+.div2-heading1 {
+  color: #e27b60;
+  font-family: Inria Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.25px;
+}
+.div2-heading2 {
+  color: #000;
+  font-family: Oxanium;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.5px;
+}
+.div2-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.div2-image img {
+  width: 500px;
+  height: auto;
+}
+.div2-para {
+  width: 800px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.div2-para p {
+  color: #000;
+  font-family: 'Open Sans', sans-serif;;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.div2-para button{
+  margin-top: 25px;
+  background: #e27b60;
+  color: #fff;
+  font-family: Cantata One;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 291px;
+  height: 65px;
+  flex-shrink: 0;
+  border: none;
 }
