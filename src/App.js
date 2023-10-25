@@ -101,7 +101,7 @@ function App() {
               setting. Dive into a world of pasta masterpieces and experience
               Italy, right here at Pomodoro. Buon appetito!
             </p>
-            <button>MORE ABOUT US</button>
+            {/* <button>MORE ABOUT US</button> */}
           </div>
         </div>
       </div>
